@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+  }
+  
+
+header {
+    height: 60px;
+    background-color: rgba(150, 255, 127, 0.864);
+    opacity: 0.5;
+    padding: 15px 5px;   
+}
+
+.header-left h1 {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    height: 57.2px;
+    padding: 13.4px 0;
+}
+
+.start {
+  background-color: #3A86FF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.start:hover {
+  opacity: 1;
+  transition: all 0.5s;
+  background-color: brown;
+}
